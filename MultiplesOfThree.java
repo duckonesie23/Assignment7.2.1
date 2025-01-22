@@ -11,7 +11,7 @@ public class MultiplesOfThree{
            System.out.print(i+", ");
        }
 
-       for(int i = 0;i<multiplesOf3.size();i++){
+       for(int i = multiplesOf3.size()-1;i>=0;i--){
            if(multiplesOf3.get(i)%2==0){
                multiplesOf3.remove(i);
            }
